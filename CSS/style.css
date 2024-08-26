@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+body {
+  font-family: "DM Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body img {
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background-color: white;
+  height: 100px;
+  font-family: "DM Sans", sans-serif;
+}
+
+span {
+  font-family: "DM Sans", sans-serif;
+}
+
+.nav-link {
+  border-bottom: 5px solid white;
+  font-size: 20px;
+}
+
+.nav-item:hover a {
+  border-bottom: 5px solid #f58fa0;
+}
+.nav-item:nth-child(1):hover a {
+  border-bottom: 5px solid #ff4500;
+}
+.nav-item:nth-child(2):hover a {
+  border-bottom: 5px solid #ff69b4;
+}
+.nav-item:nth-child(3):hover a {
+  border-bottom: 5px solid #ffa500;
+}
+.nav-item:nth-child(4):hover a {
+  border-bottom: 5px solid #f1d982;
+}
+.nav-item:nth-child(5):hover a {
+  border-bottom: 5px solid #0db7af;
+}
+
+.nav-item,
+.nav-link,
+.collapse {
+  background-color: white;
+}
+
+.carousel {
+  margin-top: 8rem;
+}
+.navbar-nav .nav-link {
+  font-size: 1.2rem;
+}
+.navbar-nav .nav-link i {
+  font-size: 1.2rem;
+}
+
+.navbar-nav .nav-link span {
+  display: block;
+  font-size: 0.8rem;
+}
